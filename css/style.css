@@ -3,10 +3,24 @@
 }
 
 h1{
-    color:blue;
+    
+    font-size: 45px;
+    text-align: center;
+    display: block;
 }
 
 a{
-    color:red;
-    text-decoration: line-through;
+    color:black;
+    text-decoration: none;
 }
+
+#active {
+    color:blue;
+}
+
+.saw {
+    color:crimson;
+}
+
+
+

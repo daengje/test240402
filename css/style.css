@@ -1,48 +1,49 @@
-#test{
-    color:blueviolet;
+#test {
+  color: blueviolet;
+}
+body {
+  margin: 0;
 }
 
-body{
-    margin: 0;
+h1 {
+  color: blue;
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 1px gray solid;
+  margin: 0;
 }
 
+h3{
+  
+}
+
+/* 순서3, css 파일에서, grid 옵션 작업.  */
 #grid {
-    border: 5px solid pink;
-    display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
-  }
-
-div{
-    border: 10px pink solid;
+  display: grid;
+  grid-template-columns: 150px 1fr;
 }
 
-h1{
-    
-    font-size: 45px;
-    text-align: center;
-    border-bottom: 1px solid gray;
-    margin: 0;
+#grid ol {
+  padding-left: 30px;
 }
 
 ol {
-    border-right: 1px solid gray;
-    width: 100px;
-    margin: 0;
-    padding: 20px;
+  border-right: 1px solid gray;
+  width: 100px;
+  margin: 0;
+  padding: 20px;
 }
 
-a{
-    color:black;
-    text-decoration: none;
+a {
+  color: black;
+  text-decoration: none;
 }
 
 #active {
-    color:blue;
+  color: red;
+
 }
 
 .saw {
-    color:crimson;
+  color: blueviolet;
 }
-
-
-

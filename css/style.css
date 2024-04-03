@@ -13,9 +13,6 @@ h1 {
   margin: 0;
 }
 
-h3{
-  
-}
 
 /* 순서3, css 파일에서, grid 옵션 작업.  */
 #grid {
@@ -39,11 +36,27 @@ img{
   object-fit: cover;
 }
 
+div {
+  border: 10px solid green;
+  font-size: 60px;
+}
 
-div{
+@media(min-width: 800px){
+  div {
+    display: none;
+  }}
+
+  @media(min-width: 800px){
+    body {
+      background: url(../image1.jpg) no-repeat fixed;
+      background-size: cover;
+    }}
+
+
+/*div{
   border-right: 5px;
   width: 100%;
-}
+}*/
 
 
 ol {

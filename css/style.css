@@ -69,7 +69,7 @@ img {
   border: 5px pink dotted ;
 }
 
-@media(max-width :1500px){
+@media(max-width :1430px){
   #grid {
       display: block;
   }
